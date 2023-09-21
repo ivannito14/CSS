@@ -1,0 +1,8 @@
+#number:not(:placeholder-shown):invalid{
+    background-color: red;
+    box-shadow: 0 0 0 0px brown;
+}
+#number , input :valid{
+    background-color: greenyellow;
+    box-shadow: 0 0 0 2px green;
+}
