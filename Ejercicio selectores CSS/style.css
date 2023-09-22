@@ -1,0 +1,63 @@
+* {
+   
+    
+}
+p {
+    
+}
+
+#title-1 {
+    
+}
+.bg-yellow {
+    
+}
+ [id] {
+    
+    
+}
+[id="title-1"] {
+   
+}
+a[href="https://www.yahoo.com"]{
+
+ 
+}
+[class^="title"] {
+    
+}
+a[href$=".com"]{
+
+    
+}
+[class*="title"]{
+    
+}
+a[href="127"]{
+    
+}
+a[href^="http"] {
+    
+}
+a , p , h1 {
+    
+}
+main p {
+    
+}
+h1 + p {
+    
+}
+h1 ~ * {
+    
+}
+main * {
+    
+}
+
+
+
+
+
+
+
