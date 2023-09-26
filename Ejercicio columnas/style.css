@@ -1,0 +1,26 @@
+*  {
+    background-color: mistyrose;
+}
+
+
+h1  {
+    color: red;
+
+}
+h1 + p {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: red;
+    
+    
+}
+h1:hover {
+    color: gray;
+}
+h1 + p::selection {
+    background: aqua;
+    color: red;
+
+}

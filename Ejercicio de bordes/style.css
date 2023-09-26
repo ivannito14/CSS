@@ -1,0 +1,24 @@
+.container{/*Todo*/
+    width: 400px;
+    height: 250px;
+    margin: 100px;
+    padding: 50px;
+    
+}
+
+.container {/*borde arriba*/
+  border-top-style: dotted;
+  border-top-color: greenyellow;
+
+
+}
+.container{ /*borde derecho*/
+    border-right-style: dashed;  
+}
+
+.container{/*borde abajo*/
+    border-bottom-style: solid;
+}
+.container{/*borde izquierdo*/
+    border-left-style: double;
+}
