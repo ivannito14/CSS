@@ -1,0 +1,17 @@
+h1 {
+    color: green; 
+
+}
+
+#title-1{
+    color: blue;
+}
+.title-1{
+    color: red ; 
+}
+a[href="title-1"]{
+    color: violet;
+}
+* {
+    color: aqua ;
+}
