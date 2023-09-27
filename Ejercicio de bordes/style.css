@@ -1,24 +1,35 @@
-.container{/*Todo*/
-    width: 400px;
+.container{
+    /*Todo*/
+    width: 350px;
     height: 250px;
-    margin: 100px;
+    margin: 80px;
     padding: 50px;
     
 }
 
 .container {/*borde arriba*/
   border-top-style: dotted;
-  border-top-color: greenyellow;
-
+  border-top-color: green;
+  border-top-width: 4px;
+  margin-top: 100px;
 
 }
 .container{ /*borde derecho*/
-    border-right-style: dashed;  
+    border-right-style: dashed;
+    border-right-color:blue ;
+    border-right-width: 10px;
+    margin-right: 10px; 
 }
 
 .container{/*borde abajo*/
     border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: 4px;
+    margin-bottom: 10px;
 }
 .container{/*borde izquierdo*/
     border-left-style: double;
+    border-left-color: black;
+    border-left-width: 10px;
+    margin-left: 100px;
 }
