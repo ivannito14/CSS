@@ -1,0 +1,10 @@
+p {
+    background-color: red;
+    width: 30px;
+    height: 20px;
+    padding: 50px;
+    margin: 50px 0 0 100px;
+    outline-offset: 5px ;
+    outline:dotted 10px greenyellow;
+
+}
