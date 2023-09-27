@@ -1,0 +1,32 @@
+* {
+    background-color:antiquewhite;
+}
+main{
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    margin: 25px 0 0 50px;
+    
+}
+
+h1:nth-child(1){
+    text-align: left;
+    border: solid thin;
+    background-color: gainsboro;
+    box-sizing: border-box;
+    
+    
+}
+h1:nth-child(2){
+    text-align: center;
+    border: solid thin;
+    background-color: gainsboro;
+    box-sizing: border-box;
+}
+h1:nth-child(3){
+    text-align: right;
+    border: solid thin;
+    background-color: gainsboro;
+    box-sizing: border-box;
+
+}
