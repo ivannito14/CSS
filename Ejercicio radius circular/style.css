@@ -1,0 +1,65 @@
+body{
+    background-color:azure;
+}
+
+caption span {
+    background-color: cyan;
+    font-weight: bolder;
+    font-size: 20px;
+}
+table{
+    text-align: center;
+    border: solid 5px;
+    border-top-right-radius: 40px ;
+    border-top-left-radius: 40px;
+    width: 400px;
+    background-color:antiquewhite;
+    margin: 10px 0 0 300px;
+
+}
+td, tr {
+        border-bottom: solid 2px black;
+        border-left: solid 1px black;
+        
+}
+#title-2{
+    background-color:cyan;
+}
+.border{
+    border: none ;
+}
+
+
+/* A MANERA DE DAVID ⬇️⬇️⬇️
+body{
+    background-color: mintcream;
+}
+
+caption span{
+    background-color: cyan;
+    font-size: 22px;
+    font-weight: bolder;
+}
+table{
+    border: solid 5px black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: antiquewhite;
+    width: 400px;
+}
+
+tbody tr td{
+    border-left: 1px solid black;
+    border-bottom: 3px solid black;
+}
+
+tfoot{
+    background-color: cyan;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+
+
