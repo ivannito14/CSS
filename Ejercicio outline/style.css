@@ -1,10 +1,16 @@
 p {
     background-color: red;
-    width: 30px;
-    height: 20px;
-    padding: 50px;
+    width: 150px;
+    height: 150px;
+    padding: 1px;
     margin: 50px 0 0 100px;
     outline-offset: 5px ;
     outline:dotted 10px greenyellow;
+    font-size: 20px;
+
+}
+p:hover {
+    outline:dotted 10px black;
+    outline-offset: 1px ;
 
 }
