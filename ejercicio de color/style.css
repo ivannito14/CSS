@@ -1,0 +1,79 @@
+
+
+.container1-1 {
+    text-align: center;
+
+}
+
+.container1-2 {
+   display: flex;
+   justify-content: space-evenly;
+   margin: 10px 0 0 10px;
+}
+.circulo {
+     border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    width: 90px;
+    height: 90px;
+}
+
+.bg-red {
+    background-color: red;
+    
+}
+.bg-green {
+    background-color: lawngreen;
+    
+}
+.bg-blue {
+    background-color: blue;
+    
+}
+.bg-fuchsia {
+    background-color: violet;
+}
+.bg-aqua{
+    background-color: aqua;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.operador  {
+    align-self: center;
+}
+.container1-5 {
+    isolation: isolate;
+
+
+}
+.redonda {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 90px;
+    height: 90px;    
+    mix-blend-mode:lighten;
+    position: absolute;
+    
+}
+.first {
+    background:linear-gradient(rgb(100% , 0%, 0%), rgb(100% , 0% ,0%) );
+    margin: 5vh 0 0 40vh;
+    
+}
+.second {
+    background:linear-gradient(rgb(0% , 100%, 0%), rgb(0% , 100% ,0%) );
+    margin: 5vh 0 0 50vh;
+}
+.third {
+    background:linear-gradient(rgb(0% , 0%, 100%), rgb(0% , 0% ,100%) );
+    margin: 15vh  0 0 45vh;
+}
+
+
+
