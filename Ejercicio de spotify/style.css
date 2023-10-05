@@ -1,4 +1,52 @@
-img {
-    width: 20%;
-    height: 20%;
-}
+@media (max-width:  320px) {
+    .container1-1 {
+        background-color: rgb(254, 254, 254);
+        margin: 0px;
+        padding: 1%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .logo1-1 {
+        width:50px;
+    }
+    .container2-1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .help1-1,
+    .premium1-1,
+    .discover1-1,
+    .download1-1 {
+        text-decoration: none;
+        font-size: 20%;
+        margin-left: 1vh;
+    }
+    .container3-1{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .concert {
+        width: 100%;
+        
+    }
+    .title-1{
+        align-self:center;
+        color:white;
+        font-size: 70%;
+        position: absolute;
+        top: 18%;
+
+    }
+    .text-1 , .text-2 {
+        
+        font-size: 20%;
+        color: red;
+        position: absolute;
+    }
+    }
+
+
