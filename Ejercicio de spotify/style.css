@@ -1,4 +1,7 @@
-@media (max-width:  320px) {
+@media (max-width: 320px) {
+    .container0-1{
+        overflow: hidden;
+    }
     .container1-1 {
         background-color: rgb(254, 254, 254);
         margin: 0px;
@@ -7,14 +10,17 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
     .logo1-1 {
-        width:50px;
+        width: 50px;
     }
-    .container2-1{
+
+    .container2-1 {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
     }
+
     .help1-1,
     .premium1-1,
     .discover1-1,
@@ -23,30 +29,39 @@
         font-size: 20%;
         margin-left: 1vh;
     }
-    .container3-1{
+
+    .container3-1 {
         
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
+        position: relative;
     }
+
     .concert {
         width: 100%;
-        
+
     }
-    .title-1{
-        align-self:center;
-        color:white;
+
+    .title-1 {
+        color: rgb(218, 35, 35);
         font-size: 70%;
-        position: absolute;
-        top: 18%;
+        position:absolute;
+        top:30%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        -webkit-transform: translate(-50% , -50%);
+        -moz-transform: translate(-50% , -50%);
+        -ms-transform: translate(-50% , -50%);
+        -o-transform: translate(-50% , -50%);
+        text-shadow: 0 0 8px;
+}
 
-    }
-    .text-1 , .text-2 {
-        
+    .text-1,
+    .text-2 {
+
         font-size: 20%;
-        color: red;
-        position: absolute;
-    }
-    }
+        color: rgb(221, 0, 0);
 
-
+    }
+}
