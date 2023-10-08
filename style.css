@@ -1,29 +1,11 @@
-/* CSS para pantallas con un ancho menor a 320px */
-@media (max-width: 320px) {
-    .container1-1 {
-        background-color: rgb(197, 0, 0);
-        margin: 0;
-        padding: 1%;
-        display: flex;
-        flex-direction: column; /* Apila los elementos verticalmente */
-        align-items: center; /* Alinea horizontalmente en el centro */
-    }
-
-    img {
-        width: 20%;
-    }
-
-    .container3-1 {
-        display: flex;
-        flex-direction: column; /* Apila los enlaces verticalmente */
-        align-items: center; /* Alinea los enlaces horizontalmente en el centro */
-    }
-
-    .help1-1,
-    .premium1-1,
-    .discover1-1,
-    .download1-1 {
-        text-decoration: none;
-        font-size: 20%;
-    }
-}
+.contenedor-imagenes {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre las imágenes */
+    align-items: center; /* Centra verticalmente las imágenes y el texto */
+  }
+  
+  .imagen-con-texto {
+    text-align: center; /* Centra horizontalmente el texto */
+    margin: 10px; /* Espacio entre cada imagen y texto */
+  }
+  
