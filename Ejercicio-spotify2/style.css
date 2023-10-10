@@ -20,8 +20,8 @@ body {
     }
 
     & main {
-        & #containerImg {
-            height: 400px;
+        & #container-img {
+            height: 650px;
             background-image: url(./imagenes/landing.jpg);
             background-size: cover;
             background-position: center;
@@ -34,13 +34,20 @@ body {
                 text-align: center;
 
                 & h1 {
-                    font-size: 36px;
+                    font-size: 40px;
                 }
             }
         }
 
         & .containerArticles {
             text-align: center;
+
+            & .text {
+                font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+                font-weight: 700;
+                text-decoration: underline rgb(24, 174, 24);
+                text-underline-offset: 7px;
+            }
 
             & section {
                 display: flex;
@@ -54,6 +61,7 @@ body {
 
                 & .contentArticle {
                     width: 100px;
+                    margin-top: 80px;
 
                     & .photo {
                         width: 75px;
@@ -61,6 +69,7 @@ body {
 
                     & .title {
                         margin: 0px;
+                        color: rgb(10, 151, 10);
                     }
 
                     & p {
@@ -70,7 +79,29 @@ body {
             }
         }
     }
+
+    & footer {
+
+        margin-top: 150px;
+        background-color: rgb(47, 198, 47);
+        width: 90%;
+        margin: 0;
+        height: 500px;
+        position: relative;
+        left: 10vh;
+
+        & .container-footer {
+            color: white;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+
+    }
 }
+
+
 
 /* Mobile */
 @media (width <=320px) {
@@ -98,15 +129,17 @@ body {
     }
 
     & main {
-
         & .containerArticles {
             & section {
                 flex-direction: column;
 
-                & article{
-                    height: 150px;
-                    & .contentArticle{
+                & article {
+                    & .contentArticle {
                         width: auto;
+
+                        & .photo {
+                            height: 70px;
+                        }
                     }
                 }
             }
@@ -122,10 +155,34 @@ body {
         justify-content: space-between;
     }
 
+    main {
+        & .containerArticles {
+            & section {
+                & article {
+                    & .contentArticle {
+                        display: flex;
+                        flex-flow: column nowrap;
+                        align-items: center;
+                        text-align: center;
+
+                        & .photo {
+                            height: 70px;
+                            width: auto;
+                        }
+
+                        & .title {
+                            font-size: 20px;
+                            width: 153px;
+                            margin: 10px 0 0 0;
+                        }
+
+                        & p {
+                            width: 148px;
+                            margin: 20px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
-
-/* section {
-    background-image: url(./imagenes/landing.jpg);
-
-
-} */
