@@ -3,9 +3,7 @@ body {
 
     & header {
         padding: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        text-align: center;
 
         & img {
             width: 163px;
@@ -14,46 +12,120 @@ body {
 
         & nav {
             & a {
-                /* background-color: red; */
                 text-decoration: none;
                 color: black;
                 margin: 0 5px;
             }
         }
     }
-    /*
-     & section {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        
-    }
 
-    & .concert {
-        width: 100%;
-                     
+    & main {
+        & #containerImg {
+            height: 400px;
+            background-image: url(./imagenes/landing.jpg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+
+            & article {
+                text-align: center;
+
+                & h1 {
+                    font-size: 36px;
+                }
+            }
+        }
+
+        & .containerArticles {
+            text-align: center;
+
+            & section {
+                display: flex;
+                justify-content: space-around;
+
+                & article {
+                    padding: 10px 45px 0 60px;
+                    height: 200px;
+                    text-align: -webkit-center;
+                }
+
+                & .contentArticle {
+                    width: 100px;
+
+                    & .photo {
+                        width: 75px;
+                    }
+
+                    & .title {
+                        margin: 0px;
+                    }
+
+                    & p {
+                        margin: 10px 0 0 0;
+                    }
+                }
+            }
+        }
     }
-    & .title-1 {
-        font-size: 40px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-} 
-    & .text-1 {
-        font-size: 15px;
-        position: absolute;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }*/
-} 
+}
 
 /* Mobile */
-@media (width <=320px) {}
+@media (width <=320px) {
+    header {
+        & nav {
+            margin-top: 10px;
+        }
+    }
+
+    main {
+        & .containerArticles {
+            & section {
+                flex-direction: column;
+            }
+        }
+    }
+}
 
 /* Tablet */
-@media (321px < width < 720px) {}
+@media (321px < width < 720px) {
+    header {
+        & nav {
+            margin-top: 10px;
+        }
+    }
+
+    & main {
+
+        & .containerArticles {
+            & section {
+                flex-direction: column;
+
+                & article{
+                    height: 150px;
+                    & .contentArticle{
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
 
 /* Deskop */
-@media (width > 721px) {}
+@media (width > 721px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+/* section {
+    background-image: url(./imagenes/landing.jpg);
+
+
+} */
