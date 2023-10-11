@@ -81,16 +81,12 @@ body {
     }
 
     & footer {
-        margin: 0;
+
         margin-top: 100px;
 
         & .container-footer {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            margin: 0 auto;
             background-color: rgb(47, 198, 47);
+
 
             & .title-4 {
                 font-family: Arial, Helvetica, sans-serif;
@@ -101,39 +97,29 @@ body {
             }
 
             & .content {
+
+                margin: 0;
                 flex: 1;
                 color: white;
+
             }
 
 
             & .text {
-                flex: 1;
+
                 font-size: 15px;
+
             }
 
-            & .images-container {
+            & .container-imagenes {
+
                 display: flex;
-                justify-content: center;
                 align-items: center;
 
-                & .photo-4 {
-                    width: 100px;
-                    height: auto;
-                    margin-right: 20px;
-                }
-                & .spotify-app {
-                    width: 100px;
-                }
             }
-            
-
-
         }
-
-
     }
 }
-
 
 
 /* Mobile */
@@ -158,9 +144,22 @@ body {
 
         & .container-footer {
             padding: 5%;
-            flex-flow: column wrap;
-            justify-content: center;
+            display: none;
+            & .photo-4 {
+                width: 100px;
+                height: 100px;
+                margin-right: 55px;
+                transform: translateY(30px);
+            }
+            & .spotify-app {
+                width: 250px;
+                height: 430px;
+                margin-right: 10vh;
+                margin-top: 36px;
+            }
+
         }
+
 
     }
 }
@@ -195,7 +194,24 @@ body {
         padding: 0 50px;
 
         & .container-footer {
-            padding: 40px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            & .photo-4 {
+                width: 70px;
+                height: 70px;
+                margin-right: 55px;
+                transform: translateY(30px);
+            }
+            & .spotify-app {
+                width: 181px;
+                height: 400px;
+                
+                margin-top: 36px;
+            }
+
+
         }
 
     }
@@ -245,9 +261,23 @@ body {
 
         & .container-footer {
             padding: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
+            & .photo-4 {
+                width: 100px;
+                height: 100px;
+                transform: translateY(30px);
+            }
+            & .spotify-app {
+                width: 250px;
+                height: 430px;
+                margin-top: 36px;
+            }
 
         }
+        
 
 
 
