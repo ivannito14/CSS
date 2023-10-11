@@ -81,19 +81,52 @@ body {
     }
 
     & footer {
-
-        margin-top: 150px;
-        background-color: rgb(47, 198, 47);
-        width: 90%;
         margin: 0;
-        height: 500px;
-        position: relative;
-        left: 10vh;
+        margin-top: 100px;
 
         & .container-footer {
-            color: white;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            background-color: rgb(47, 198, 47);
+
+            & .title-4 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 500;
+                text-decoration: underline;
+                text-underline-offset: 10px;
+                flex: 1;
+            }
+
+            & .content {
+                flex: 1;
+                color: white;
+            }
+
+
+            & .text {
+                flex: 1;
+                font-size: 15px;
+            }
+
+            & .images-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                & .photo-4 {
+                    width: 100px;
+                    height: auto;
+                    margin-right: 20px;
+                }
+                & .spotify-app {
+                    width: 100px;
+                }
+            }
+            
+
 
         }
 
@@ -115,13 +148,25 @@ body {
         & .containerArticles {
             & section {
                 flex-direction: column;
+                padding: 0px;
             }
         }
+    }
+
+    & footer {
+        padding: 0 10px;
+
+        & .container-footer {
+            padding: 5%;
+            flex-flow: column wrap;
+            justify-content: center;
+        }
+
     }
 }
 
 /* Tablet */
-@media (321px < width < 720px) {
+@media (321px < width <=720px) {
     header {
         & nav {
             margin-top: 10px;
@@ -144,6 +189,15 @@ body {
                 }
             }
         }
+    }
+
+    & footer {
+        padding: 0 50px;
+
+        & .container-footer {
+            padding: 40px;
+        }
+
     }
 }
 
@@ -184,5 +238,18 @@ body {
                 }
             }
         }
+    }
+
+    & footer {
+        padding: 0 50px;
+
+        & .container-footer {
+            padding: 70px;
+
+
+        }
+
+
+
     }
 }
